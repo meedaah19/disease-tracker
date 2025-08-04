@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Malaria",
+    "cases": 300000,
+    "deaths": 10000,
+    "recovered": 280000
+  },
+  {
+    "name": "Cholera",
+    "cases": 50000,
+    "deaths": 1500,
+    "recovered": 47000
+  }
+]

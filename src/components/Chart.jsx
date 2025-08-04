@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import axios from "axios";
 import {
@@ -46,12 +46,16 @@ function Chart({ country }) {
     fetchData();
   }, [country]);
 
-  return (
+    return (
     <div className="mt-10 w-full max-w-2xl mx-auto bg-white p-4 rounded shadow">
       <h2 className="text-lg font-semibold mb-4 text-center">Cases in the Last 30 Days</h2>
-      <Line data={chartData} />
+      {chartData?.labels ? (
+        <Line data={chartData} />
+      ) : (
+        <p className="text-center text-gray-500">Loading chart...</p>
+      )}
     </div>
-  );
+);
 }
 
 export default Chart;
