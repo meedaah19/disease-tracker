@@ -20,12 +20,12 @@
     "deaths": 800,
     "recovered": 11000,
     "chartData": [
-      { "date": "07-01", "cases": 200 },
-      { "date": "07-02", "cases": 300 },
+      { "date": "07-01", "cases": 270 },
+      { "date": "07-02", "cases": 330 },
       { "date": "07-03", "cases": 400 },
-      { "date": "07-04", "cases": 500 },
-      { "date": "07-05", "cases": 600 },
-      { "date": "07-06", "cases": 700 },
+      { "date": "07-04", "cases": 450 },
+      { "date": "07-05", "cases": 550 },
+      { "date": "07-06", "cases": 600 },
       { "date": "07-07", "cases": 800 }
     ]
   },
@@ -36,11 +36,11 @@
     "recovered": 120000,
     "chartData": [
       { "date": "07-01", "cases": 2000 },
-      { "date": "07-02", "cases": 2500 },
+      { "date": "07-02", "cases": 2700 },
       { "date": "07-03", "cases": 3000 },
-      { "date": "07-04", "cases": 3500 },
+      { "date": "07-04", "cases": 3300 },
       { "date": "07-05", "cases": 4000 },
-      { "date": "07-06", "cases": 4500 },
+      { "date": "07-06", "cases": 4400 },
       { "date": "07-07", "cases": 5000 }
     ]
   }
