@@ -2,7 +2,7 @@
 
 ## Project Title: Communicable Disease Tracker
 
-### Tech Stack: React + API (disease.sh) + Chart.js or Recharts + CSS/Tailwind
+### Tech Stack: React + API (disease.sh) + Chart.js or Recharts + Tailwind
 
 **Goal**: Display live disease stats by country using public APIs, charts, and a clean UI.
 
@@ -78,4 +78,3 @@ A simple and interactive web application built with **React** and **Tailwind CSS
 
     Make sure your terminal is in the project root directory and your Node.js is up to date.
 
-    
